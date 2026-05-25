@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xchange — Premium Currency Converter</title>
+  <link href="index.css" rel="stylesheet">
+  <link rel="icon" href="icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+    <div class="header">
+    <div class="title">
+      <div class="logo-icon"><i class="fa-solid fa-arrow-right-arrow-left"></i></div>
+      <div class="X">X</div>
+      <div class="logo-name">change</div>
+    </div>
+    <div class="tagline">REAL-TIME CURRENCY EXCHANGE</div>
+    </div>
+
+
+  <div class="container">
+    
+      <div class="amount">
+        <p class="amount-title">AMOUNT TO CONVERT</p>
+        <div class="input-box">
+        <div class="amount-symbol">$</div>
+        <input class="input-amount" value="100" type="text">
+        </div>
+
+      </div>
+      <div class="dropdown">
+        <div class="from">
+          <p class="from-title">From</p>
+          <div class="select-container">
+            <img class="flag" src="https://flagsapi.com/US/flat/64.png">
+            <select class="currency-select" name="from">
+              
+              
+            </select>
+          </div>
+        </div>
+          <div class="exchange-btn-container"><button class="exchange-btn"><i class="fa-solid fa-arrow-right-arrow-left"></i></button></div>
+          <div class="to">
+          <p class="to-title">To</p>
+           <div class="select-container">
+            <img class="flag" src="https://flagsapi.com/IN/flat/64.png">
+            <select class="currency-select" name="to">
+              
+              
+            </select>
+           </div>
+          </div>
+       
+      </div>
+
+    <div class="rate-strip">
+      <div class="rate-left">
+        <div class="live-dot"></div>
+        <span class="rate-label">Live Rate</span>
+      </div>
+      <span class="rate-value" id="liveRateDisplay">1 USD = 83.4200 INR</span>
+      <span class="rate-change" id="reverseLiveRate">
+        1 INR = 0.01 USD
+      </span>
+  </div>
+
+
+      <button class="convert-btn" >
+      <i class="fa-solid fa-bolt"></i>
+      Get Exchange Rate
+    </button>
+
+
+
+      <div class="result-card" id="resultCard">
+      <div class="result-top">
+        <span class="result-label">Converted Amount</span>
+        <div class="result-meta" id="resultMeta">
+          1 USD = 83.42 INR<br>
+          <span style="color:#6A6A6A;font-size:10px">Mid-market rate</span>
+        </div>
+      </div>
+      <div class="result-amount-row">
+        <span class="result-currency-sym" id="toSymDisplay">₹</span>
+        <span class="result-number" id="resultNumber">83,420</span>
+        <span class="result-code" id="resultCode">INR</span>
+      </div>
+      <div class="result-divider"></div>
+      <div class="result-footer">
+        <div class="result-breakdown" id="resultBreakdown">
+          <span id="fromAmtcalc">1,000</span><span id="calcFromSym"> USD</span> × <span id="calcLiveRate">83.42</span> = <span id="calcFinalAmount">83,420</span><span id="calcToSym"> INR</span>
+        </div>
+        <div class="result-timestamp">
+          <i class="fa-regular fa-clock"></i>
+          <span id="resultTime">Just now</span>
+        </div>
+      </div>
+    </div>
+ 
+  </div>
+  
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-item">
+      <div class="stat-val" id="stat7d">Rate Source: Currency API</div>
+      
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <div class="stat-val" id="stat1y">Base Currency: USD</div>
+      
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <div class="stat-val" id="time">Last Updated: 10:45 AM</div>
+      
+    </div>
+  </div>
+
+  <div class="footer">
+    <p class="footer-text">Rates for informational purposes only · <span>Xchange</span> © 2026</p>
+  </div>
+
+
+  <script src="codes.js"></script>
+  <script src="index.js"></script>
+  
+</body>
+</html>
