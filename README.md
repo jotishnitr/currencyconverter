@@ -17,7 +17,8 @@
 
 <br/>
 
-![Xchange Preview](https://via.placeholder.com/800x450/1A1A1A/C9A84C?text=Xchange+Preview)
+<img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/6738208b-2739-4c22-9ef6-4e6cc06de70b" />
+
 
 </div>
 
