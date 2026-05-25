@@ -17,7 +17,7 @@
 
 <br/>
 
-<img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/6738208b-2739-4c22-9ef6-4e6cc06de70b" />
+<img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/c8986da7-7160-49f2-8ecb-e4c3bf18abe7" />
 
 
 </div>
@@ -40,7 +40,9 @@
 
 ## 🖥️ Demo
 
-> Open `index.html` directly in your browser — no server needed.
+> 🌐 **[Live Demo](https://jotishnitr.github.io/currencyconverter/)** — Open directly in your browser.
+>
+> 📁 **[GitHub Repo](https://github.com/jotishnitr/currencyconverter)** — View source code.
 
 ---
 
@@ -49,7 +51,7 @@
 ### 1 — Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/xchange.git
+git clone https://github.com/jotishnitr/currencyconverter.git
 cd xchange
 ```
 
@@ -193,8 +195,9 @@ MIT License — free to use, modify and distribute.
 
 <div align="center">
 
-Made with ❤️ by **Jotish**
+Made with ❤️ by [**jotishnitr**](https://github.com/jotishnitr)
 
 ⭐ Star this repo if you found it helpful!
 
+</div>
 </div>
